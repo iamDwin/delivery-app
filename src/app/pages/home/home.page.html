@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Home</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <strong>Welcome to Delivery App!</strong>
+    <p>This is the home page of your delivery application.</p>
+    
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Quick Actions</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-button expand="block" color="primary">
+          <ion-icon slot="start" name="add-circle"></ion-icon>
+          New Delivery
+        </ion-button>
+        <ion-button expand="block" color="secondary">
+          <ion-icon slot="start" name="location"></ion-icon>
+          Track Order
+        </ion-button>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Recent Activity</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>No recent activity</p>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
